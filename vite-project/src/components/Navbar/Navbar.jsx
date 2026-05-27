@@ -28,10 +28,13 @@ function Navbar() {
       <div className="navbar-profile">
         <img src={profile_img} alt="" className="profile" />
         <img src={caret_icon} alt="" />
+        <div className="dropdown">
+          <p>Sign Out of Netflix</p>
+        </div>
       </div>
       </div>
     </div>
   )
 }
 
-export default App
+export default Navbar
