@@ -7,9 +7,6 @@ import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
 
 
-
-
-
 function Navbar() {
   return (
     <div className='navbar'>
@@ -37,4 +34,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default App
