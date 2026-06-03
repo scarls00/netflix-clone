@@ -1,5 +1,4 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "react-router-dom";
 import { addDoc, 
     collection, 
     getFirestore } from "firebase/firestore";
