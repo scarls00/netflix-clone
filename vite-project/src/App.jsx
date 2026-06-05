@@ -4,9 +4,9 @@ import { Routes, Route, useNavigate } from 'react-router-dom'
 import Login from './pages/Login/Login'
 import Player from './pages/Player/Player'
 import { onAuthStateChanged } from 'firebase/auth'
-import { ToastContainer, toast } from 'react-toastify';
+import { auth } from './components/firebase'
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import netflix_spinner from './assets/netflix_spinner.gif'
 
 
 const App = () => {
